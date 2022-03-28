@@ -1,0 +1,10 @@
+{
+  "name": "pinned-metahkg",
+  "version": "1.0.0",
+  "repository": "https://gitlab.com/metahkg/pinned-metahkg.git",
+  "author": "wcyat <sleep@wcyat.me>",
+  "license": "MIT",
+  "scripts": {
+    "build": "mkdir -p dist && zip dist/pinned-metahkg.zip -r *"
+  }
+}
